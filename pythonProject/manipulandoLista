@@ -1,0 +1,14 @@
+lista = ['Hiago','Luiz',"Joao"]
+## inserindo na lista
+lista.append('Giovana')
+lista.append('Josue')
+## removendo da lista a partir de um indice
+lista.pop(0)
+## Descobrir indice de um valor da lista
+lista.index('Josue')
+## remover da lista a partir do valor
+lista.remove('Josue')
+## ordenar a lista
+lista.sort()
+for nome in lista:
+    print(nome)
